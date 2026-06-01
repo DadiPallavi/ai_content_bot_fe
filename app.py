@@ -1,7 +1,7 @@
 import streamlit as st
 import requests as rq
 
-BACKEND_URL=st.secrets["be_server_url"]
+BACKEND_URL="http://127.0.0.1:8000"
 st.set_page_config(
     page_title="AI content Generator",
     layout="wide"
